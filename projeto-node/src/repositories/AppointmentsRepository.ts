@@ -1,7 +1,6 @@
 import { isEqual } from 'date-fns';
 import Appointment from '../models/Appointment';
 
-// eslint-disable-next-line @typescript-eslint/naming-convention
 interface CreateAppointmentDTO {
   provider: string;
   date: Date;
