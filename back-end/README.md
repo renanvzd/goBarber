@@ -20,6 +20,14 @@
 - O usuário precisa confirmar a nova senha ao resetar sua senha;
 
 
+** Reset de Senha
+1. Rotas e Controllers
+2. Repositório de tokens (TypeORM)
+3. Criar migration de tokens
+4. Provider de envio de e-mail (DEV)
+5. Registrar providers no container
+6. Testar tudo!
+
 # Atualização do Perfil
 
 **Requisitos Funcionais**
