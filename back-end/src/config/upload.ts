@@ -2,6 +2,8 @@ import path from 'path';
 import crypto from 'crypto';
 import multer, { StorageEngine } from 'multer';
 
+require('dotenv');
+
 const tmpFolder = path.resolve(__dirname, '..', '..', 'tmp');
 
 interface IUploadConfig {
@@ -23,7 +25,7 @@ interface IUploadConfig {
 }
 
 export default {
-  driver: `${process.env.STORAGE_DRIVER}`,
+  driver: process.env.STORAGE_DRIVER,
 
   tmpFolder,
   uploadsFolder: path.resolve(tmpFolder, 'uploads'),
