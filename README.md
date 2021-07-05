@@ -123,8 +123,6 @@ Este projeto tem o objetivo de ser utilizado como servidor para o GoBarber app, 
 <h1 align="center">
   <img alt="insomnia" title="insomnia" src=".github/insomnia.png" />
 </h1>
-
-
 ---
 
 Copyright: [Rocketseat Bootcamp](https://github.com/rocketseat-education/bootcamp-gostack-modulos)
