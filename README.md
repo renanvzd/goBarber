@@ -1,3 +1,42 @@
+<h1 align="center">
+    <img alt="GoStack" src=".github/goStack.png" width="200px" />
+</h1>
+
+# 🚀 Bootcamp GoStack
+
+# <div align="center"> Node Server GoBarber </div>
+### <div align="right">Status: Ambiente de Testes (localhost:3000) 🟠 </div>
+ 
+
+<br>
+
+## 🧪 Tecnologias
+
+São utilizadas as seguintes tecnologias:
+
+- [Node](https://nodejs.org/en/)
+- [Typescript](https://www.typescriptlang.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [PostgresSQL](https://www.postgresql.org/)
+- [Redis](https://redis.io/)
+- [Docker](https://www.docker.com/)
+
+## 🚀 Como executar
+
+- Clone o repositório
+- Instale as dependências com `yarn`
+- Inicie Redis, MongoDB e PostgresSQL `sudo docker start ____`
+- Inicie o servidor com `yarn dev:server`
+
+Servidor em [`localhost:3333`](http://localhost:3333) do seu navegador.
+
+## 💻 Projeto
+
+Este projeto tem o objetivo de ser utilizado como servidor para o GoBarber app, que pode ser clonado [aqui](https://github.com/renanvzd/06-gobarberweb)
+
+
+# FUNCIONALIDADES:
+
 # Recuperação de senha
 
 **Requisitos Funcionais**
@@ -80,3 +119,12 @@
 - O usuário não pode agendar em um horário já ocupado;
 - O usuário não pode agendar em um horário que já passou;
 - O usuário não pode agendar serviços consigo mesmo;
+
+<h1 align="center">
+  <img alt="insomnia" title="insomnia" src=".github/insomnia.png" />
+</h1>
+
+
+---
+
+Copyright: [Rocketseat Bootcamp](https://github.com/rocketseat-education/bootcamp-gostack-modulos)
